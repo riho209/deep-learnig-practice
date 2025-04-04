@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ゼロから作るDeep Learnig
 
 目的:ゼロから作るDeep Learning の復習とgit/githubの練習をする
@@ -7,5 +5,3 @@
 
 やること
 第一章:AND OR NANDそしてXORの実装
-
->>>>>>> 7809518 (READMEファイルにリポジトリ説明を記載)
