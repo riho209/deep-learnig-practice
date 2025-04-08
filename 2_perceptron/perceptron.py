@@ -34,8 +34,15 @@ def OR(x1,x2):
         y=1
     return y
 
+def XOR(x1,x2):
+    s1=NAND(x1,x2)
+    s2=OR(x1,x2)
+    y=AND(s1,s2)
+
+    return y
 if __name__ == '__main__':
     x1,x2=map(float,input().split())
     print('AND:',AND(x1,x2))
     print('NAND:',NAND(x1,x2))
     print('OR:',OR(x1,x2))
+    print('XOR:',XOR(x1,x2))
